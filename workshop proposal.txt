@@ -1,0 +1,83 @@
+ACNS 2026
+June 22-25, 2026
+
+6th International Workshop on Critical Infrastructure and Maritime Systems Security
+
+In Conjunction with the 24th International Conference on 
+Applied Cryptography and Network Security 2026 (ACNS – 2026)
+
+Critical infrastructure including power grids, water treatment facilities, and transportation systems across land and sea, forms the foundation of modern society. Within this landscape, the maritime industry is undergoing a significant transformation through the adoption of Industry 4.0 technologies, often referred to as Maritime 4.0. This evolution involves the integration of advanced digital tools such as automation, real-time data analytics, artificial intelligence, and cybersecurity frameworks to enhance operational efficiency, safety, and sustainability.
+As maritime systems become increasingly digitized, compliance with cybersecurity standards such as the International Association of Classification Societies (IACS) Unified Requirements E-26 and E-27 is becoming essential. Cyberattacks targeting critical infrastructure, especially maritime systems, can lead to severe disruptions affecting manufacturers, ship owners, and society at large.
+This workshop aims to bring together researchers and professionals working in Critical Infrastructure and Maritime Systems Security (CIMSS) to share cutting-edge research, innovative ideas, and practical insights. It also seeks to foster collaboration between academia and industry, encouraging dialogue on real-world challenges and creative solutions to strengthen the resilience and security of maritime and other critical systems.
+Note: For sixth version of CIMSS, we are changing its name to Critical Infrastructure and Maritime Systems Security from previously titled as Critical Infrastructure and Manufacturing Systems Security.
+Topics of Interest
+Topics of interest include, but are not limited to:
+•	New Attack Vectors on CIMSS
+•	Empirical Study of CIMSS
+•	Formal Treatment of CIMSS
+•	Authentication and Remote Attestation for CIMSS
+•	Human Factors in CIMSS
+•	Intrusion/Anomaly Detection/Prevention for CIMSS
+•	Forensics in CIMSS
+•	Novel Security Notions for CIMSS
+•	Cryptographic Tools for CIMSS
+•	Vulnerabilities Discovery and Management in CIMSS
+•	Intellectual Property Protection in CIMSS
+•	Novel Analysis Tools for CIMSS
+•	Risk Management for CIMSS
+•	Control Theoretic Methods for CIMSS
+•	Ransomware in CIMSS
+
+Submissions must not substantially duplicate work that any of the authors has published elsewhere or has submitted in parallel to any other venue with formally published proceedings. Information about submissions may be shared with program chairs of other conferences for that purpose. Submissions must be anonymous, with no author names, affiliations, acknowledgement or obvious references. Each submission must begin with a title, short abstract, and a list of keywords. The introduction should summarize the contributions of the paper at a level appropriate for a non-specialist reader. All submissions must follow the original LNCS format (see http://www.springeronline.com/lncs) with a page limit of 20 pages (incl. references). Authors of accepted papers must guarantee that their paper will be presented at the conference and must make a full version of their paper available online. Submissions not meeting the submission guidelines risk rejection without consideration of their merits. It is strongly encouraged that submissions be processed in LaTeX.
+
+Work-in-progress papers are welcome, and such submissions can expectedly be less than the maximum page limit of 20 pages. Submissions less than 10 pages, however, are discouraged as there is not enough space for appropriate technical content presentation. Authors are required to include "WiP:" in the title of a work-in-progress paper submission.
+
+Submissions must be original and must not duplicate work that any of the authors has published elsewhere or has submitted in parallel to any other venue with formally published proceedings.
+
+Organization Committee
+Program Chairs:
+Awais Yousaf (SUTD, Singapore)
+Victor Bolbot (Aalto University, Finland)
+Publication Chair:
+Eyasu Getahun Chekole (SUTD, Singapore)
+Web Chair:
+Sunil Basnet (Aalto University, Finland)
+Publicity Chair:
+Weizhi Meng (Lancaster University, UK)
+Technical Program Committee:
+TBD
+
+Below are brief biographical sketches of the two program chairs, outlining their relevant qualifications, research interests, and experience in organizing conferences and workshops:
+
+Awais Yousaf serves as a Research Fellow at iTrust, Singapore University of Technology and Design (SUTD), Singapore. He earned his B.Sc., M.Sc., and Ph.D. in Electrical Engineering from University of Engineering and Technology, Lahore, Pakistan, in 2008, 2010, and 2018, respectively. His prior research has focused on secure cyber-physical systems, intrusion detection systems, signal processing for defense, and performance modeling and simulation of multicore microprocessor platforms and architectures. His current research interests include maritime cybersecurity, maritime cybersecurity testbeds, and maritime cyber risk management. He has served as TPC member for ICEE-2018, CPSComm-2024, CPSComm-2025 and DCS-Water 2025. He was also part of the organizing committees for AsiaCCS 2024 conference and CPSS 2024 workshop. Recently, he has served as a chair of CPSS 2025.    
+
+Victor Bolbot is a post-doc researcher at the Research group on Safe and Efficient Marine and Ship Systems of Aalto University with doctoral degree from the University of Strathclyde, Glasgow, Scotland, and M.Sc. degree from the National Technical University of Athens, Greece. During his studies as a Master and PhD student Victor has received multiple awards for his outstanding performance from distinguished organisations such as DNV, IMarEST, Limmat Stiftung, Thomaideion, TRA VISIONS 2020. Victor research interests focus on design, educational aspects, safety and cybersecurity assurance of complex and autonomous marine systems.
+ 
+Workshop Format
+Length: Half-day/Full-day
+Tentative Agenda for Half-day: 
+	09:30 - 09:45 am: Opening Remarks 
+	9:45 - 10:45 am: First Keynote Talk
+	10:45 - 11:25 am: Technical presentations (20-min x 2)
+	11:25 - 11:40 am: Break
+	11:40 - 12:20 pm: Technical presentations (20-min x 2) 
+	12:20 - 1:20 pm: Lunch Break 
+	1:20 - 2:20 pm: Second Keynote Talk
+	2:20 - 2:30 pm: Concluding Remarks 
+Expected Number of Submissions: 16 ~ 20 Submissions
+Expected Acceptance Rate: ~ 40%
+Expected Number of Attendees: 18 ~ 20 pax
+CFP: See last page
+
+Important Dates
+In the sixth edition of the CIMMS workshop, we propose the following dates: 
+	Workshop date: one day between June 22 - 25, 2026. 
+	Workshop Paper Submission Deadline (cycle-1): January 24, 2026.
+	Notification of Acceptance/Rejection (cycle-1): February 21, 2026.
+	Workshop Paper Submission Opening (cycle-2): February 23, 2026.
+	Workshop Paper Submission Deadline (cycle-2): March 22, 2026.
+	Notification of Acceptance/Rejection: April 24, 2026. 
+	Submission of camera-ready papers: May 10, 2026.
+
+
+
