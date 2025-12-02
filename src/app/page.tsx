@@ -40,7 +40,7 @@ export default function Home() {
             {/* Award Badge */}
             <div className="bg-white text-primary-900 px-8 py-6 rounded-lg shadow-lg bg-opacity-95 backdrop-blur-sm w-full max-w-md border-2 border-yellow-400 relative overflow-hidden transform hover:scale-105 transition-transform flex flex-col justify-center">
               <div className="absolute top-0 right-0 bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1 shadow-sm">AWARD</div>
-              <h3 className="text-xl font-bold mb-2 text-primary-800">Best Workshop Paper Award</h3>
+              <h3 className="text-xl font-bold mb-2 text-primary-800">Best ACNS Workshops Paper Award</h3>
               <p className="text-2xl font-bold text-yellow-600 mb-3">EUR 500 Prize</p>
               <div className="flex items-center justify-center gap-3 text-sm text-gray-600 font-medium">
                 <span>Sponsored by</span>
