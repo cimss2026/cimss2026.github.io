@@ -59,7 +59,7 @@ export default function CallForPapers() {
           <ul className="list-disc list-inside space-y-2 ml-4">
             <li>Must begin with a title, short abstract, and a list of keywords</li>
             <li>Introduction should summarize contributions at a level appropriate for a non-specialist reader</li>
-            <li>Follow the original LNCS format (see <a href="http://www.springeronline.com/lncs" className="text-primary-600 hover:underline">http://www.springeronline.com/lncs</a>)</li>
+            <li>Follow the original LNCS format (see <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" className="text-primary-600 hover:underline">Springer LNCS Guidelines</a>)</li>
             <li>Page limit: 20 pages (including references)</li>
             <li>Authors of accepted papers must guarantee presentation at the conference</li>
             <li>Authors must make a full version of their paper available online</li>

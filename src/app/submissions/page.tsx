@@ -23,7 +23,7 @@ export default function Submissions() {
             </div>
             <div>
               <h4 className="font-semibold mb-1">Prepare Your Paper</h4>
-              <p>Format according to <a href="http://www.springeronline.com/lncs" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:underline">LNCS guidelines</a>, max 20 pages including references</p>
+              <p>Format according to <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:underline">LNCS guidelines</a>, max 20 pages including references</p>
             </div>
           </div>
           
