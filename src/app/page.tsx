@@ -55,7 +55,7 @@ export default function Home() {
       <section className="container mx-auto px-4 py-12 max-w-5xl">
         <div className="bg-white rounded-lg shadow-md p-8">
           <h3 className="text-3xl font-bold text-primary-900 mb-6">About the Workshop</h3>
-          <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+          <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed text-justify">
             <p className="mb-4">
               Critical infrastructure including power grids, water treatment facilities, and transportation systems 
               across land and sea, forms the foundation of modern society. Within this landscape, the maritime industry 
