@@ -81,8 +81,30 @@ export default function Organization() {
       {/* Technical Program Committee */}
       <div className="bg-white rounded-lg shadow-md p-8">
         <h2 className="text-2xl font-bold text-primary-800 mb-6">Technical Program Committee</h2>
-        <div className="bg-gray-50 p-6 rounded text-center">
-          <p className="text-gray-600 italic">To Be Determined</p>
+        <div className="grid md:grid-cols-2 gap-3">
+          {[
+            { name: "Ahmed Amro", affiliation: "NTNU, Norway" },
+            { name: "Aybars Oruç", affiliation: "TalTech, Estonia" },
+            { name: "Bilhanan Silverajan", affiliation: "Tampere University, Finland" },
+            { name: "Chuadhry Mujeeb Ahmed", affiliation: "Newcastle University, UK" },
+            { name: "Daisuke Mashima", affiliation: "SUTD, Singapore" },
+            { name: "Eric Wagner", affiliation: "University of Luxembourg" },
+            { name: "Georgios Kavallieratos", affiliation: "University of Oslo, Norway" },
+            { name: "Harishma Boyapally", affiliation: "SUTD, Singapore" },
+            { name: "Irfan Ahmed", affiliation: "Virginia Commonwealth University, USA" },
+            { name: "Jan Bauer", affiliation: "Fraunhofer, Germany" },
+            { name: "Matheus Garbelini", affiliation: "NTU, Singapore" },
+            { name: "Osiris A. Valdez Banda", affiliation: "Aalto, Finland" },
+            { name: "Philip Ginzboorg", affiliation: "Aalto, Finland" },
+            { name: "Rodrigo Roman Castro", affiliation: "University of Malaga, Spain" },
+            { name: "Yan Lin Aung", affiliation: "University of Derby, UK" },
+            { name: "Yaxi Yang", affiliation: "NTU, Singapore" },
+          ].map((member, index) => (
+            <div key={index} className="bg-gray-50 p-3 rounded-lg">
+              <p className="font-medium text-primary-900">{member.name}</p>
+              <p className="text-sm text-gray-600">{member.affiliation}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>
