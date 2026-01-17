@@ -35,21 +35,22 @@ export default function Organization() {
           {/* Victor Bolbot */}
           <div className="border-l-4 border-primary-600 pl-6">
             <h3 className="text-xl font-semibold text-primary-900 mb-2">Victor Bolbot</h3>
-            <p className="text-gray-600 mb-4">Aalto University, Finland</p>
+            <p className="text-gray-600 mb-4">Novia University of Applied Sciences, Finland</p>
             <div className="text-gray-700 text-sm space-y-2">
               <p>
-                Victor Bolbot is a post-doc researcher at the Research group on Safe and Efficient Marine and Ship 
-                Systems of Aalto University with doctoral degree from the University of Strathclyde, Glasgow, Scotland, 
-                and M.Sc. degree from the National Technical University of Athens, Greece.
+                Dr Victor Bolbot is a senior lecturer at Novia University of Applied Sciences, Finland. Prior to his
+                current employment, he worked at Aalto University, Finland and University of Strathclyde, UK as a
+                postdoctoral researcher. He received doctoral degree from the University of Strathclyde, UK, and
+                M.Sc degree from the National Technical University of Athens, Greece.
               </p>
               <p>
-                During his studies as a Master and PhD student Victor has received multiple awards for his outstanding 
-                performance from distinguished organisations such as DNV, IMarEST, Limmat Stiftung, Thomaideion, TRA 
-                VISIONS 2020.
+                During his research career, Victor contributed to over 70 scientific publications (conference papers and journal articles) and
+                received 9 scientific awards.
               </p>
               <p>
-                Victor's research interests focus on design, educational aspects, safety and cybersecurity assurance 
-                of complex and autonomous marine systems.
+                Victor research interests focus on design, educational aspects,
+                modelling, sustainability, safety and cybersecurity assurance of complex and autonomous marine
+                systems.
               </p>
             </div>
           </div>
