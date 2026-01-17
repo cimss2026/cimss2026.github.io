@@ -12,7 +12,7 @@ export default function Organization() {
           <div className="border-l-4 border-primary-600 pl-6">
             <h3 className="text-xl font-semibold text-primary-900 mb-2">Awais Yousaf</h3>
             <p className="text-gray-600 mb-4">Singapore University of Technology and Design (SUTD), Singapore</p>
-            <div className="text-gray-700 text-sm space-y-2">
+            <div className="text-gray-700 text-sm space-y-2 text-justify">
               <p>
                 Awais Yousaf serves as a Research Fellow at iTrust, Singapore University of Technology and Design (SUTD), 
                 Singapore. He earned his B.Sc., M.Sc., and Ph.D. in Electrical Engineering from University of Engineering 
@@ -36,7 +36,7 @@ export default function Organization() {
           <div className="border-l-4 border-primary-600 pl-6">
             <h3 className="text-xl font-semibold text-primary-900 mb-2">Victor Bolbot</h3>
             <p className="text-gray-600 mb-4">Novia University of Applied Sciences, Finland</p>
-            <div className="text-gray-700 text-sm space-y-2">
+            <div className="text-gray-700 text-sm space-y-2 text-justify">
               <p>
                 Dr Victor Bolbot is a senior lecturer at Novia University of Applied Sciences, Finland. Prior to his
                 current employment, he worked at Aalto University, Finland and University of Strathclyde, UK as a
