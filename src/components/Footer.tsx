@@ -28,8 +28,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:victor.bolbot@aalto.fi" className="hover:text-white transition-colors">
-                  victor.bolbot@aalto.fi
+                <a href="mailto:victor.bolbot@novia.fi" className="hover:text-white transition-colors">
+                  victor.bolbot@novia.fi
                 </a>
               </li>
             </ul>
