@@ -1,7 +1,7 @@
 export default function ImportantDates() {
   const dates = [
     { event: "Workshop Date", date: "June 22-25, 2026", note: "One day between these dates", highlight: true },
-    { event: "Workshop Paper Submission Deadline (Cycle 1)", date: "January 30, 2026", highlight: false },
+    { event: "Workshop Paper Submission Deadline (Cycle 1)", date: "January 30, 2026", oldDate: "January 24, 2026", highlight: false },
     { event: "Notification of Acceptance/Rejection (Cycle 1)", date: "February 21, 2026", highlight: false },
     { event: "Workshop Paper Submission Opening (Cycle 2)", date: "February 23, 2026", highlight: false },
     { event: "Workshop Paper Submission Deadline (Cycle 2)", date: "March 22, 2026", highlight: false },
@@ -38,6 +38,9 @@ export default function ImportantDates() {
                 <div className={`text-xl font-bold ${
                   item.highlight ? 'text-primary-600' : 'text-gray-700'
                 }`}>
+                  {item.oldDate && (
+                    <span className="text-gray-400 line-through mr-2">{item.oldDate}</span>
+                  )}
                   {item.date}
                 </div>
               </div>

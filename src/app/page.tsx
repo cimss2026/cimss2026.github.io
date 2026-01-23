@@ -34,7 +34,9 @@ export default function Home() {
             {/* Important Dates Badge */}
             <div className="bg-primary-600 text-white px-8 py-6 rounded-lg shadow-lg bg-opacity-90 backdrop-blur-sm w-full max-w-md transform hover:scale-105 transition-transform flex flex-col justify-center">
               <p className="font-semibold text-lg mb-2">Workshop Paper Submission (Cycle 1)</p>
+              <p className="text-xl line-through text-gray-300 mb-1">January 24, 2026</p>
               <p className="text-3xl font-bold">January 30, 2026</p>
+              <p className="text-sm mt-1 text-yellow-300 font-semibold">Extended!</p>
             </div>
 
             {/* Award Badge */}
@@ -91,6 +93,10 @@ export default function Home() {
         <div className="bg-white rounded-lg shadow-md p-8">
           <h3 className="text-3xl font-bold text-primary-900 mb-6">News</h3>
           <ul className="space-y-4">
+            <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
+              <span className="font-bold text-red-600 min-w-[150px]">Jan 23, 2026</span>
+              <span className="text-gray-700"><span className="font-semibold text-red-600">Extended:</span> Submission deadline for Cycle 1 extended to January 30, 2026</span>
+            </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
               <span className="font-bold text-primary-700 min-w-[150px]">Jan 06, 2026</span>
               <span className="text-gray-700">Technical Program Committee members confirmed</span>
