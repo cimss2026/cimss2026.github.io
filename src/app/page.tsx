@@ -34,7 +34,7 @@ export default function Home() {
             {/* Important Dates Badge */}
             <div className="bg-primary-600 text-white px-8 py-6 rounded-lg shadow-lg bg-opacity-90 backdrop-blur-sm w-full max-w-md transform hover:scale-105 transition-transform flex flex-col justify-center">
               <p className="font-semibold text-lg mb-2">Workshop Paper Submission (Cycle 1)</p>
-              <p className="text-3xl font-bold">January 24, 2026</p>
+              <p className="text-3xl font-bold">January 30, 2026</p>
             </div>
 
             {/* Award Badge */}
