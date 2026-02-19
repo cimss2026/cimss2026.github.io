@@ -85,7 +85,7 @@ export default function Organization() {
         <div className="grid md:grid-cols-2 gap-3">
           {[
             { name: "Ahmed Amro", affiliation: "NTNU, Norway" },
-            { name: "Aybars Oruç", affiliation: "TalTech, Estonia" },
+            { name: "Aybars Oruç", affiliation: "UNCW, USA" },
             { name: "Bilhanan Silverajan", affiliation: "Tampere University, Finland" },
             { name: "Chuadhry Mujeeb Ahmed", affiliation: "Newcastle University, UK" },
             { name: "Daisuke Mashima", affiliation: "SUTD, Singapore" },
