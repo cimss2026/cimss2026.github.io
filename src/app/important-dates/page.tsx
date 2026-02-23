@@ -1,8 +1,8 @@
 export default function ImportantDates() {
   const dates = [
     { event: "Workshop Date", date: "June 22-25, 2026", note: "One day between these dates", highlight: true },
-    { event: "Workshop Paper Submission Deadline (Cycle 1)", date: "January 30, 2026", oldDate: "January 24, 2026", highlight: false },
-    { event: "Notification of Acceptance/Rejection (Cycle 1)", date: "February 21, 2026", highlight: false },
+    { event: "Workshop Paper Submission Deadline (Cycle 1)", date: "January 30, 2026", oldDate: "January 24, 2026", highlight: false, strikethrough: true },
+    { event: "Notification of Acceptance/Rejection (Cycle 1)", date: "February 21, 2026", highlight: false, strikethrough: true },
     { event: "Workshop Paper Submission Opening (Cycle 2)", date: "February 23, 2026", highlight: false },
     { event: "Workshop Paper Submission Deadline (Cycle 2)", date: "March 22, 2026", highlight: false },
     { event: "Notification of Acceptance/Rejection (Cycle 2)", date: "April 24, 2026", highlight: false },
@@ -22,13 +22,13 @@ export default function ImportantDates() {
                 item.highlight
                   ? 'bg-primary-50 border-primary-600'
                   : 'bg-gray-50 border-gray-300'
-              }`}
+              } ${item.strikethrough ? 'opacity-60' : ''}`}
             >
               <div className="flex flex-col md:flex-row md:justify-between md:items-center">
                 <div className="mb-2 md:mb-0">
                   <h3 className={`text-lg font-semibold ${
                     item.highlight ? 'text-primary-900' : 'text-gray-800'
-                  }`}>
+                  } ${item.strikethrough ? 'line-through' : ''}`}>
                     {item.event}
                   </h3>
                   {item.note && (
@@ -37,7 +37,7 @@ export default function ImportantDates() {
                 </div>
                 <div className={`text-xl font-bold ${
                   item.highlight ? 'text-primary-600' : 'text-gray-700'
-                }`}>
+                } ${item.strikethrough ? 'line-through' : ''}`}>
                   {item.oldDate && (
                     <span className="text-gray-400 line-through mr-2">{item.oldDate}</span>
                   )}

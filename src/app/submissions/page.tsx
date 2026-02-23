@@ -66,10 +66,10 @@ export default function Submissions() {
         </p>
         
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-gradient-to-br from-primary-50 to-primary-100 p-6 rounded-lg border-2 border-primary-300">
-            <h3 className="text-xl font-bold text-primary-900 mb-4">Cycle 1</h3>
-            <ul className="space-y-2 text-gray-700">
-              <li><span className="font-semibold">Submission Deadline:</span> <span className="line-through text-gray-400">January 24, 2026</span> <span className="font-bold text-red-600">January 30, 2026 (Extended)</span></li>
+          <div className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-lg border-2 border-gray-300 opacity-75">
+            <h3 className="text-xl font-bold text-gray-600 mb-4 line-through">Cycle 1</h3>
+            <ul className="space-y-2 text-gray-500 line-through">
+              <li><span className="font-semibold">Submission Deadline:</span> <span className="line-through text-gray-400">January 24, 2026</span> <span className="font-bold text-gray-500 line-through">January 30, 2026 (Extended)</span></li>
               <li><span className="font-semibold">Notification:</span> February 21, 2026</li>
             </ul>
           </div>

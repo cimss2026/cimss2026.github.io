@@ -92,7 +92,6 @@ export default function Organization() {
             { name: "Eric Wagner", affiliation: "University of Luxembourg" },
             { name: "Georgios Kavallieratos", affiliation: "University of Oslo, Norway" },
             { name: "Harishma Boyapally", affiliation: "SUTD, Singapore" },
-            { name: "Irfan Ahmed", affiliation: "Virginia Commonwealth University, USA" },
             { name: "Jan Bauer", affiliation: "Fraunhofer, Germany" },
             { name: "Matheus Garbelini", affiliation: "NTU, Singapore" },
             { name: "Osiris A. Valdez Banda", affiliation: "Aalto, Finland" },
