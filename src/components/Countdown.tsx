@@ -52,34 +52,34 @@ export default function Countdown({ targetDate }: CountdownProps) {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center mt-4">
-      <div className="flex gap-4 text-center">
+    <div className="flex flex-col items-center justify-center mt-4 w-full">
+      <div className="flex gap-2 sm:gap-4 text-center w-full justify-center">
         <div className="flex flex-col">
-          <span className="text-4xl font-bold text-white bg-primary-800/80 rounded-lg px-4 py-2 shadow-inner backdrop-blur-sm border border-primary-500/30">
+          <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-white bg-primary-800/80 rounded-lg px-2 sm:px-3 md:px-4 py-2 shadow-inner backdrop-blur-sm border border-primary-500/30">
             {timeLeft.days.toString().padStart(2, '0')}
           </span>
-          <span className="text-xs font-medium text-primary-100 mt-1 uppercase tracking-wider">Days</span>
+          <span className="text-[10px] sm:text-xs font-medium text-primary-100 mt-1 uppercase tracking-wider">Days</span>
         </div>
-        <div className="text-3xl font-bold text-primary-200 mt-2">:</div>
+        <div className="text-xl sm:text-2xl md:text-3xl font-bold text-primary-200 mt-2">:</div>
         <div className="flex flex-col">
-          <span className="text-4xl font-bold text-white bg-primary-800/80 rounded-lg px-4 py-2 shadow-inner backdrop-blur-sm border border-primary-500/30">
+          <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-white bg-primary-800/80 rounded-lg px-2 sm:px-3 md:px-4 py-2 shadow-inner backdrop-blur-sm border border-primary-500/30">
             {timeLeft.hours.toString().padStart(2, '0')}
           </span>
-          <span className="text-xs font-medium text-primary-100 mt-1 uppercase tracking-wider">Hours</span>
+          <span className="text-[10px] sm:text-xs font-medium text-primary-100 mt-1 uppercase tracking-wider">Hours</span>
         </div>
-        <div className="text-3xl font-bold text-primary-200 mt-2">:</div>
+        <div className="text-xl sm:text-2xl md:text-3xl font-bold text-primary-200 mt-2">:</div>
         <div className="flex flex-col">
-          <span className="text-4xl font-bold text-white bg-primary-800/80 rounded-lg px-4 py-2 shadow-inner backdrop-blur-sm border border-primary-500/30">
+          <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-white bg-primary-800/80 rounded-lg px-2 sm:px-3 md:px-4 py-2 shadow-inner backdrop-blur-sm border border-primary-500/30">
             {timeLeft.minutes.toString().padStart(2, '0')}
           </span>
-          <span className="text-xs font-medium text-primary-100 mt-1 uppercase tracking-wider">Mins</span>
+          <span className="text-[10px] sm:text-xs font-medium text-primary-100 mt-1 uppercase tracking-wider">Mins</span>
         </div>
-        <div className="text-3xl font-bold text-primary-200 mt-2">:</div>
+        <div className="text-xl sm:text-2xl md:text-3xl font-bold text-primary-200 mt-2">:</div>
         <div className="flex flex-col">
-          <span className="text-4xl font-bold text-white bg-primary-800/80 rounded-lg px-4 py-2 shadow-inner backdrop-blur-sm border border-primary-500/30">
+          <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-white bg-primary-800/80 rounded-lg px-2 sm:px-3 md:px-4 py-2 shadow-inner backdrop-blur-sm border border-primary-500/30">
             {timeLeft.seconds.toString().padStart(2, '0')}
           </span>
-          <span className="text-xs font-medium text-primary-100 mt-1 uppercase tracking-wider">Secs</span>
+          <span className="text-[10px] sm:text-xs font-medium text-primary-100 mt-1 uppercase tracking-wider">Secs</span>
         </div>
       </div>
     </div>

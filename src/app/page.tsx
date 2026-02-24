@@ -100,7 +100,7 @@ export default function Home() {
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
               <span className="font-bold text-primary-700 min-w-[150px]">Feb 21, 2026</span>
-              <span className="text-gray-700">Author notifications have been sent</span>
+              <span className="text-gray-700">Author notification have been sent for Cycle 1 submission</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
               <span className="font-bold text-primary-700 min-w-[150px]">Jan 23, 2026</span>
