@@ -96,8 +96,8 @@ export default function Home() {
               <span className="text-gray-700">Submission is closed.</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-red-600 min-w-[150px]">Feb 23, 2026</span>
-              <span className="text-gray-700"><span className="font-semibold text-red-600">New:</span> Cycle 2 submission is open now</span>
+              <span className="font-bold text-primary-700 min-w-[150px]">Feb 23, 2026</span>
+              <span className="text-gray-700">Cycle 2 submission is open now</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
               <span className="font-bold text-primary-700 min-w-[150px]">Feb 21, 2026</span>
