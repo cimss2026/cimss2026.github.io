@@ -1,5 +1,3 @@
-import Countdown from '@/components/Countdown';
-
 export default function Home() {
   return (
     <div className="bg-gradient-to-b from-primary-50 to-white">
@@ -34,10 +32,9 @@ export default function Home() {
           
           <div className="flex flex-col lg:flex-row gap-8 justify-center items-stretch">
             {/* Important Dates Badge */}
-            <div className="bg-primary-600 text-white px-8 py-6 rounded-lg shadow-lg bg-opacity-90 backdrop-blur-sm w-full max-w-md transform hover:scale-105 transition-transform flex flex-col justify-center">
-              <p className="font-semibold text-lg mb-2">Workshop Paper Submission (Cycle 2)</p>
-              <p className="text-3xl font-bold mb-4">March 22, 2026</p>
-              <Countdown targetDate="2026-03-23T13:59:59" />
+            <div className="bg-primary-600 text-white px-8 py-6 rounded-lg shadow-lg bg-opacity-90 backdrop-blur-sm w-full max-w-md transform hover:scale-105 transition-transform flex flex-col justify-center opacity-75">
+              <p className="font-semibold text-lg mb-2 line-through">Workshop Paper Submission (Cycle 2)</p>
+              <p className="text-3xl font-bold mb-4 line-through">March 22, 2026</p>
             </div>
 
             {/* Award Badge */}
@@ -94,6 +91,10 @@ export default function Home() {
         <div className="bg-white rounded-lg shadow-md p-8">
           <h3 className="text-3xl font-bold text-primary-900 mb-6">News</h3>
           <ul className="space-y-4">
+            <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
+              <span className="font-bold text-red-600 min-w-[150px]">Mar 30, 2026</span>
+              <span className="text-gray-700">Submission is closed.</span>
+            </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
               <span className="font-bold text-red-600 min-w-[150px]">Feb 23, 2026</span>
               <span className="text-gray-700"><span className="font-semibold text-red-600">New:</span> Cycle 2 submission is open now</span>

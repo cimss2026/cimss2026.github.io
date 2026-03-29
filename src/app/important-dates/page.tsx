@@ -3,8 +3,8 @@ export default function ImportantDates() {
     { event: "Workshop Date", date: "June 22-25, 2026", note: "One day between these dates", highlight: true },
     { event: "Workshop Paper Submission Deadline (Cycle 1)", date: "January 30, 2026", oldDate: "January 24, 2026", highlight: false, strikethrough: true },
     { event: "Notification of Acceptance/Rejection (Cycle 1)", date: "February 21, 2026", highlight: false, strikethrough: true },
-    { event: "Workshop Paper Submission Opening (Cycle 2)", date: "February 23, 2026", highlight: false },
-    { event: "Workshop Paper Submission Deadline (Cycle 2)", date: "March 22, 2026", highlight: false },
+    { event: "Workshop Paper Submission Opening (Cycle 2)", date: "February 23, 2026", highlight: false, strikethrough: true },
+    { event: "Workshop Paper Submission Deadline (Cycle 2)", date: "March 22, 2026", highlight: false, strikethrough: true },
     { event: "Notification of Acceptance/Rejection (Cycle 2)", date: "April 24, 2026", highlight: false },
     { event: "Submission of Camera-Ready Papers", date: "May 10, 2026", highlight: true },
   ];

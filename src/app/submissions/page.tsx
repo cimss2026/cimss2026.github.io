@@ -74,11 +74,11 @@ export default function Submissions() {
             </ul>
           </div>
           
-          <div className="bg-gradient-to-br from-primary-50 to-primary-100 p-6 rounded-lg border-2 border-primary-300">
-            <h3 className="text-xl font-bold text-primary-900 mb-4">Cycle 2</h3>
+          <div className="bg-gradient-to-br from-primary-50 to-primary-100 p-6 rounded-lg border-2 border-primary-300 opacity-75">
+            <h3 className="text-xl font-bold text-primary-900 mb-4 line-through">Cycle 2</h3>
             <ul className="space-y-2 text-gray-700">
-              <li><span className="font-semibold">Submission Opens:</span> February 23, 2026</li>
-              <li><span className="font-semibold">Submission Deadline:</span> March 22, 2026</li>
+              <li className="line-through"><span className="font-semibold">Submission Opens:</span> February 23, 2026</li>
+              <li className="line-through"><span className="font-semibold">Submission Deadline:</span> March 22, 2026</li>
               <li><span className="font-semibold">Notification:</span> April 24, 2026</li>
             </ul>
           </div>
