@@ -106,35 +106,35 @@ export default function Home() {
               <span className="text-gray-700">Author notifications have been sent for Cycle 2 submissions.</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-red-600 min-w-[150px]">Mar 30, 2026</span>
+              <span className="font-bold text-primary-700 min-w-[150px]">Mar 30, 2026</span>
               <span className="text-gray-700">Submission is closed.</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-red-600 min-w-[150px]">Feb 23, 2026</span>
+              <span className="font-bold text-primary-700 min-w-[150px]">Feb 23, 2026</span>
               <span className="text-gray-700">Cycle 2 submission is open now</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-red-600 min-w-[150px]">Feb 21, 2026</span>
+              <span className="font-bold text-primary-700 min-w-[150px]">Feb 21, 2026</span>
               <span className="text-gray-700">Author notification have been sent for Cycle 1 submission</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-red-600 min-w-[150px]">Jan 23, 2026</span>
+              <span className="font-bold text-primary-700 min-w-[150px]">Jan 23, 2026</span>
               <span className="text-gray-700">Submission deadline for Cycle 1 extended to January 30, 2026</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-red-600 min-w-[150px]">Jan 06, 2026</span>
+              <span className="font-bold text-primary-700 min-w-[150px]">Jan 06, 2026</span>
               <span className="text-gray-700">Technical Program Committee members confirmed</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-red-600 min-w-[150px]">Nov 26, 2025</span>
+              <span className="font-bold text-primary-700 min-w-[150px]">Nov 26, 2025</span>
               <span className="text-gray-700">Submission Cycle 1 opened</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-red-600 min-w-[150px]">Nov 26, 2025</span>
+              <span className="font-bold text-primary-700 min-w-[150px]">Nov 26, 2025</span>
               <span className="text-gray-700">CFP announced</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-red-600 min-w-[150px]">Nov 25, 2025</span>
+              <span className="font-bold text-primary-700 min-w-[150px]">Nov 25, 2025</span>
               <span className="text-gray-700">Website launched</span>
             </li>
           </ul>
