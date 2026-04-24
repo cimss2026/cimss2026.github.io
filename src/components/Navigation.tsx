@@ -10,6 +10,7 @@ export default function Navigation() {
     { name: 'Home', href: '/' },
     { name: 'Call for Papers', href: '/call-for-papers' },
     { name: 'Submissions', href: '/submissions' },
+    { name: 'Registration', href: 'https://acns2026.github.io/registration.html', external: true },
     { name: 'Important Dates', href: '/important-dates' },
     { name: 'Organization', href: '/organization' },
     { name: 'Venue', href: '/venue' },
@@ -28,13 +29,25 @@ export default function Navigation() {
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-1">
             {navItems.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="px-4 py-2 rounded hover:bg-primary-700 transition-colors"
-              >
-                {item.name}
-              </Link>
+              item.external ? (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 rounded hover:bg-primary-700 transition-colors"
+                >
+                  {item.name}
+                </a>
+              ) : (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className="px-4 py-2 rounded hover:bg-primary-700 transition-colors"
+                >
+                  {item.name}
+                </Link>
+              )
             ))}
           </div>
 
@@ -65,14 +78,27 @@ export default function Navigation() {
         {isOpen && (
           <div className="md:hidden pb-4">
             {navItems.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="block px-4 py-2 rounded hover:bg-primary-700 transition-colors"
-                onClick={() => setIsOpen(false)}
-              >
-                {item.name}
-              </Link>
+              item.external ? (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block px-4 py-2 rounded hover:bg-primary-700 transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.name}
+                </a>
+              ) : (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className="block px-4 py-2 rounded hover:bg-primary-700 transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.name}
+                </Link>
+              )
             ))}
           </div>
         )}

@@ -31,11 +31,17 @@ export default function Home() {
           </p>
           
           <div className="flex flex-col lg:flex-row gap-8 justify-center items-stretch">
-            {/* Important Dates Badge */}
-            <div className="bg-primary-600 text-white px-8 py-6 rounded-lg shadow-lg bg-opacity-90 backdrop-blur-sm w-full max-w-md transform hover:scale-105 transition-transform flex flex-col justify-center opacity-75">
-              <p className="font-semibold text-lg mb-2 line-through">Workshop Paper Submission (Cycle 2)</p>
-              <p className="text-3xl font-bold mb-4 line-through">March 22, 2026</p>
-            </div>
+            {/* Registration Badge */}
+            <a
+              href="https://acns2026.github.io/registration.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-primary-600 text-white px-8 py-6 rounded-lg shadow-lg bg-opacity-90 backdrop-blur-sm w-full max-w-md transform hover:scale-105 transition-transform flex flex-col justify-center"
+            >
+              <p className="font-semibold text-lg mb-2">Early-Bird Registration</p>
+              <p className="text-3xl font-bold mb-3">Open Now</p>
+              <p className="text-lg font-medium text-primary-100">Deadline: May 1, 2026</p>
+            </a>
 
             {/* Award Badge */}
             <div className="bg-white text-primary-900 px-8 py-6 rounded-lg shadow-lg bg-opacity-95 backdrop-blur-sm w-full max-w-md border-2 border-yellow-400 relative overflow-hidden transform hover:scale-105 transition-transform flex flex-col justify-center">
@@ -91,6 +97,14 @@ export default function Home() {
         <div className="bg-white rounded-lg shadow-md p-8">
           <h3 className="text-3xl font-bold text-primary-900 mb-6">News</h3>
           <ul className="space-y-4">
+            <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
+              <span className="font-bold text-primary-700 min-w-[150px]">Apr 24, 2026</span>
+              <span className="text-gray-700">Early-bird registration is open. Deadline is May 1st, 2026.</span>
+            </li>
+            <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
+              <span className="font-bold text-primary-700 min-w-[150px]">Apr 24, 2026</span>
+              <span className="text-gray-700">Author notifications have been sent for Cycle 2 submissions.</span>
+            </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
               <span className="font-bold text-red-600 min-w-[150px]">Mar 30, 2026</span>
               <span className="text-gray-700">Submission is closed.</span>

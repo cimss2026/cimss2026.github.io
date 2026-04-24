@@ -5,7 +5,8 @@ export default function ImportantDates() {
     { event: "Notification of Acceptance/Rejection (Cycle 1)", date: "February 21, 2026", highlight: false, strikethrough: true },
     { event: "Workshop Paper Submission Opening (Cycle 2)", date: "February 23, 2026", highlight: false, strikethrough: true },
     { event: "Workshop Paper Submission Deadline (Cycle 2)", date: "March 22, 2026", highlight: false, strikethrough: true },
-    { event: "Notification of Acceptance/Rejection (Cycle 2)", date: "April 24, 2026", highlight: false },
+    { event: "Notification of Acceptance/Rejection (Cycle 2)", date: "April 24, 2026", highlight: false, strikethrough: true },
+    { event: "Early-bird Registration Deadline", date: "May 1, 2026", highlight: true },
     { event: "Submission of Camera-Ready Papers", date: "May 10, 2026", highlight: true },
   ];
 

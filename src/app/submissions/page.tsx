@@ -79,7 +79,7 @@ export default function Submissions() {
             <ul className="space-y-2 text-gray-700">
               <li className="line-through"><span className="font-semibold">Submission Opens:</span> February 23, 2026</li>
               <li className="line-through"><span className="font-semibold">Submission Deadline:</span> March 22, 2026</li>
-              <li><span className="font-semibold">Notification:</span> April 24, 2026</li>
+              <li className="line-through"><span className="font-semibold">Notification:</span> April 24, 2026</li>
             </ul>
           </div>
         </div>
@@ -87,6 +87,9 @@ export default function Submissions() {
         <div className="mt-6 p-4 bg-blue-50 rounded">
           <p className="text-gray-700">
             <span className="font-semibold">Camera-Ready Deadline (Both Cycles):</span> May 10, 2026
+          </p>
+          <p className="text-gray-700 mt-2">
+            <span className="font-semibold">Early-bird Registration Deadline:</span> May 1, 2026
           </p>
         </div>
       </div>
