@@ -10,43 +10,58 @@ export default function ImportantDates() {
     { event: "Submission of Camera-Ready Papers", date: "May 10, 2026", highlight: true },
   ];
 
+  const upcomingDates = dates.filter((item) => !item.strikethrough);
+  const completedDates = dates.filter((item) => item.strikethrough);
+
+  const renderDateCard = (item: (typeof dates)[number], index: number) => (
+    <div
+      key={`${item.event}-${index}`}
+      className={`p-6 rounded-lg border-l-4 ${
+        item.highlight
+          ? 'bg-primary-50 border-primary-600'
+          : 'bg-gray-50 border-gray-300'
+      } ${item.strikethrough ? 'opacity-60' : ''}`}
+    >
+      <div className="flex flex-col md:flex-row md:justify-between md:items-center">
+        <div className="mb-2 md:mb-0">
+          <h3 className={`text-lg font-semibold ${
+            item.highlight ? 'text-primary-900' : 'text-gray-800'
+          } ${item.strikethrough ? 'line-through' : ''}`}>
+            {item.event}
+          </h3>
+          {item.note && (
+            <p className="text-sm text-gray-600 mt-1">{item.note}</p>
+          )}
+        </div>
+        <div className={`text-xl font-bold ${
+          item.highlight ? 'text-primary-600' : 'text-gray-700'
+        } ${item.strikethrough ? 'line-through' : ''}`}>
+          {item.oldDate && (
+            <span className="text-gray-400 line-through mr-2">{item.oldDate}</span>
+          )}
+          {item.date}
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <div className="container mx-auto px-4 py-12 max-w-5xl">
       <h1 className="text-4xl font-bold text-primary-900 mb-8">Important Dates</h1>
       
       <div className="bg-white rounded-lg shadow-md p-8 mb-8">
-        <div className="space-y-4">
-          {dates.map((item, index) => (
-            <div
-              key={index}
-              className={`p-6 rounded-lg border-l-4 ${
-                item.highlight
-                  ? 'bg-primary-50 border-primary-600'
-                  : 'bg-gray-50 border-gray-300'
-              } ${item.strikethrough ? 'opacity-60' : ''}`}
-            >
-              <div className="flex flex-col md:flex-row md:justify-between md:items-center">
-                <div className="mb-2 md:mb-0">
-                  <h3 className={`text-lg font-semibold ${
-                    item.highlight ? 'text-primary-900' : 'text-gray-800'
-                  } ${item.strikethrough ? 'line-through' : ''}`}>
-                    {item.event}
-                  </h3>
-                  {item.note && (
-                    <p className="text-sm text-gray-600 mt-1">{item.note}</p>
-                  )}
-                </div>
-                <div className={`text-xl font-bold ${
-                  item.highlight ? 'text-primary-600' : 'text-gray-700'
-                } ${item.strikethrough ? 'line-through' : ''}`}>
-                  {item.oldDate && (
-                    <span className="text-gray-400 line-through mr-2">{item.oldDate}</span>
-                  )}
-                  {item.date}
-                </div>
-              </div>
-            </div>
-          ))}
+        <div className="mb-8">
+          <h2 className="text-2xl font-bold text-primary-800 mb-4">Upcoming Dates</h2>
+          <div className="space-y-4">
+            {upcomingDates.map((item, index) => renderDateCard(item, index))}
+          </div>
+        </div>
+
+        <div>
+          <h2 className="text-2xl font-bold text-gray-700 mb-4">Completed Dates</h2>
+          <div className="space-y-4">
+            {completedDates.map((item, index) => renderDateCard(item, index))}
+          </div>
         </div>
       </div>
 

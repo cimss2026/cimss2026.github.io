@@ -98,11 +98,11 @@ export default function Home() {
           <h3 className="text-3xl font-bold text-primary-900 mb-6">News</h3>
           <ul className="space-y-4">
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-primary-700 min-w-[150px]">Apr 24, 2026</span>
+              <span className="font-bold text-red-600 min-w-[150px]">Apr 24, 2026</span>
               <span className="text-gray-700">Early-bird registration is open. Deadline is May 1st, 2026.</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-primary-700 min-w-[150px]">Apr 24, 2026</span>
+              <span className="font-bold text-red-600 min-w-[150px]">Apr 24, 2026</span>
               <span className="text-gray-700">Author notifications have been sent for Cycle 2 submissions.</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
@@ -110,31 +110,31 @@ export default function Home() {
               <span className="text-gray-700">Submission is closed.</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-primary-700 min-w-[150px]">Feb 23, 2026</span>
+              <span className="font-bold text-red-600 min-w-[150px]">Feb 23, 2026</span>
               <span className="text-gray-700">Cycle 2 submission is open now</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-primary-700 min-w-[150px]">Feb 21, 2026</span>
+              <span className="font-bold text-red-600 min-w-[150px]">Feb 21, 2026</span>
               <span className="text-gray-700">Author notification have been sent for Cycle 1 submission</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-primary-700 min-w-[150px]">Jan 23, 2026</span>
+              <span className="font-bold text-red-600 min-w-[150px]">Jan 23, 2026</span>
               <span className="text-gray-700">Submission deadline for Cycle 1 extended to January 30, 2026</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-primary-700 min-w-[150px]">Jan 06, 2026</span>
+              <span className="font-bold text-red-600 min-w-[150px]">Jan 06, 2026</span>
               <span className="text-gray-700">Technical Program Committee members confirmed</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-primary-700 min-w-[150px]">Nov 26, 2025</span>
+              <span className="font-bold text-red-600 min-w-[150px]">Nov 26, 2025</span>
               <span className="text-gray-700">Submission Cycle 1 opened</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-primary-700 min-w-[150px]">Nov 26, 2025</span>
+              <span className="font-bold text-red-600 min-w-[150px]">Nov 26, 2025</span>
               <span className="text-gray-700">CFP announced</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
-              <span className="font-bold text-primary-700 min-w-[150px]">Nov 25, 2025</span>
+              <span className="font-bold text-red-600 min-w-[150px]">Nov 25, 2025</span>
               <span className="text-gray-700">Website launched</span>
             </li>
           </ul>
