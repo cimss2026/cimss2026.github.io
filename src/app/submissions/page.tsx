@@ -85,10 +85,10 @@ export default function Submissions() {
         </div>
         
         <div className="mt-6 p-4 bg-blue-50 rounded">
-          <p className="text-gray-700">
-            <span className="font-semibold">Camera-Ready Deadline (Both Cycles):</span> May 10, 2026
+          <p className="text-gray-700 mb-3">
+            <span className="font-semibold">Camera-Ready Submission:</span> As announced by the ACNS Organizing Committee, CIMSS 2026 will be published in the form of post-proceedings this year. Instructions regarding the preparation of the post-proceedings will be announced around the last week of May 2026.
           </p>
-          <p className="text-gray-700 mt-2">
+          <p className="text-gray-700">
             <span className="font-semibold">Early-bird Registration Deadline:</span> May 1, 2026
           </p>
         </div>
