@@ -98,6 +98,10 @@ export default function Home() {
           <h3 className="text-3xl font-bold text-primary-900 mb-6">News</h3>
           <ul className="space-y-4">
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
+              <span className="font-bold text-red-600 min-w-[150px]">May 13, 2026</span>
+              <span className="text-gray-700"><span className="font-semibold">Keynote Speaker:</span> Prof. Valdez Banda Osiris (Aalto University, Finland) has been confirmed as the keynote speaker for CIMSS 2026.</span>
+            </li>
+            <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
               <span className="font-bold text-red-600 min-w-[150px]">Apr 29, 2026</span>
               <span className="text-gray-700"><span className="font-semibold">Camera-Ready Submission:</span> As announced by the ACNS Organizing Committee, CIMSS 2026 will be published in the form of post-proceedings this year. Instructions regarding the preparation of the post-proceedings will be announced around the last week of May 2026.</span>
             </li>
