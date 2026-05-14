@@ -40,7 +40,7 @@ export default function Home() {
             >
               <p className="font-semibold text-lg mb-2">Early-Bird Registration</p>
               <p className="text-3xl font-bold mb-3">Open Now</p>
-              <p className="text-lg font-medium text-primary-100">Deadline: May 1, 2026</p>
+              <p className="text-lg font-medium text-primary-100">Deadline: May 15, 2026</p>
             </a>
 
             {/* Award Badge */}
@@ -98,6 +98,10 @@ export default function Home() {
           <h3 className="text-3xl font-bold text-primary-900 mb-6">News</h3>
           <ul className="space-y-4">
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
+              <span className="font-bold text-red-600 min-w-[150px]">May 15, 2026</span>
+              <span className="text-gray-700">Early-bird registration deadline for CIMSS 2026 has been extended till May 15, 2026.</span>
+            </li>
+            <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
               <span className="font-bold text-red-600 min-w-[150px]">May 13, 2026</span>
               <span className="text-gray-700"><span className="font-semibold">Keynote Speaker:</span> Prof. Valdez Banda Osiris (Aalto University, Finland) has been confirmed as the keynote speaker for CIMSS 2026.</span>
             </li>
@@ -107,7 +111,7 @@ export default function Home() {
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
               <span className="font-bold text-red-600 min-w-[150px]">Apr 24, 2026</span>
-              <span className="text-gray-700">Early-bird registration is open. Deadline is May 1st, 2026.</span>
+              <span className="text-gray-700">Early-bird registration is open. Deadline is May 15, 2026.</span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
               <span className="font-bold text-red-600 min-w-[150px]">Apr 24, 2026</span>
