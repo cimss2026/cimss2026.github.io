@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const papers = [
   {
     title: 'Data2Damage: Using Large Language Models to Uncover Logic-Level Attack Vectors in ICS',
@@ -30,7 +32,11 @@ export default function Program() {
             <div className="flex flex-col md:flex-row md:items-start md:gap-6">
               <div className="min-w-[140px] font-bold text-primary-900">14:20 – 15:20</div>
               <div>
-                <p className="text-lg font-semibold text-gray-900">Keynote</p>
+                <p className="text-lg font-semibold text-gray-900">
+                  <Link href="/keynote" className="text-primary-700 hover:text-primary-900 underline underline-offset-2 transition-colors">
+                    Keynote
+                  </Link>
+                </p>
                 <p className="mt-1">Engineering Trust at Sea: Cyber Risk Management in the Future Maritime Ecosystem</p>
               </div>
             </div>

@@ -8,6 +8,7 @@ export default function Navigation() {
 
   const navItems = [
     { name: 'Home', href: '/' },
+    { name: 'Program', href: '/program' },
     { name: 'Keynote', href: '/keynote' },
     { name: 'Call for Papers', href: '/call-for-papers' },
     { name: 'Submissions', href: '/submissions' },
@@ -15,7 +16,6 @@ export default function Navigation() {
     { name: 'Important Dates', href: '/important-dates' },
     { name: 'Organization', href: '/organization' },
     { name: 'Venue', href: '/venue' },
-    { name: 'Program', href: '/program' },
     { name: 'Past Events', href: '/past-events' },
   ];
 

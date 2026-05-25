@@ -27,7 +27,7 @@ export default function Home() {
             In Conjunction with <a href="https://acns2026.github.io/index.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary-200 transition-colors">ACNS 2026</a>
           </p>
           <p className="text-lg mb-12 drop-shadow-md">
-            June 22-25, 2026
+            June 24, 2026
           </p>
           
           <div className="flex flex-col lg:flex-row gap-8 justify-center items-stretch">
@@ -39,7 +39,7 @@ export default function Home() {
               className="bg-primary-600 text-white px-8 py-6 rounded-lg shadow-lg bg-opacity-90 backdrop-blur-sm w-full max-w-md transform hover:scale-105 transition-transform flex flex-col justify-center"
             >
               <p className="font-semibold text-lg mb-2">Early-Bird Registration</p>
-              <p className="text-3xl font-bold mb-3">Open Now</p>
+              <p className="text-3xl font-bold mb-3">Closed</p>
               <p className="text-lg font-medium text-primary-100">Deadline: May 15, 2026</p>
             </a>
 
