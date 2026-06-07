@@ -106,6 +106,10 @@ export default function Home() {
               </span>
             </li>
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
+              <span className="font-bold text-red-600 min-w-[150px]">May 22, 2026</span>
+              <span className="text-gray-700">Camera-ready instructions for CIMSS 2026 have been sent to the authors of accepted papers. Hard-deadline is June 10, 2026. For queries, please contact Rahul Chatterjee at <a href="mailto:rchatterjee4@wisc.edu" className="underline hover:text-primary-900">rchatterjee4@wisc.edu</a>.</span>
+            </li>
+            <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
               <span className="font-bold text-primary-700 min-w-[150px]">May 15, 2026</span>
               <span className="text-gray-700">Early-bird registration deadline for CIMSS 2026 has been extended till May 15, 2026.</span>
             </li>

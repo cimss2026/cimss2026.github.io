@@ -1,5 +1,6 @@
 export default function ImportantDates() {
   const dates = [
+    { event: "Camera-Ready Submission Deadline", date: "June 10, 2026", highlight: true },
     { event: "Workshop Date", date: "June 24, 2026", note: "Workshop day at ACNS 2026", highlight: true },
     { event: "Workshop Paper Submission Deadline (Cycle 1)", date: "January 30, 2026", oldDate: "January 24, 2026", highlight: false, strikethrough: true },
     { event: "Notification of Acceptance/Rejection (Cycle 1)", date: "February 21, 2026", highlight: false, strikethrough: true },
@@ -7,7 +8,6 @@ export default function ImportantDates() {
     { event: "Workshop Paper Submission Deadline (Cycle 2)", date: "March 22, 2026", highlight: false, strikethrough: true },
     { event: "Notification of Acceptance/Rejection (Cycle 2)", date: "April 24, 2026", highlight: false, strikethrough: true },
     { event: "Early-bird Registration Deadline", date: "May 15, 2026", oldDate: "May 1, 2026", highlight: true, strikethrough: true },
-    { event: "Camera-Ready Submission", date: "Details will be announced in late May 2026", highlight: true },
   ];
 
   const upcomingDates = dates.filter((item) => !item.strikethrough);
