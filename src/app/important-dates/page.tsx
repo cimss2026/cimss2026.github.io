@@ -1,7 +1,7 @@
 export default function ImportantDates() {
   const dates = [
-    { event: "Camera-Ready Submission Deadline", date: "June 10, 2026", highlight: true },
     { event: "Workshop Date", date: "June 24, 2026", note: "Workshop day at ACNS 2026", highlight: true },
+    { event: "Camera-Ready Submission Deadline", date: "June 10, 2026", highlight: true },
     { event: "Workshop Paper Submission Deadline (Cycle 1)", date: "January 30, 2026", oldDate: "January 24, 2026", highlight: false, strikethrough: true },
     { event: "Notification of Acceptance/Rejection (Cycle 1)", date: "February 21, 2026", highlight: false, strikethrough: true },
     { event: "Workshop Paper Submission Opening (Cycle 2)", date: "February 23, 2026", highlight: false, strikethrough: true },
